@@ -11,12 +11,19 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* CONTAINER */
+/* CONTAINERS */
 .container{
     max-width: 1000px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    padding: 20px 0;
 }
 
 /* BOX */
