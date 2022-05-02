@@ -14,7 +14,7 @@ for(let i = 1; i <= 100; i++){
         element.innerText = "buzz";
         element.classList.add("buzz");
         console.log('Buzz');
-    }if(i % 3 === 0){
+    }else if(i % 3 === 0){
             element.innerText = "fizz";
             element.classList.add("fizz");
             console.log('Fizz');
